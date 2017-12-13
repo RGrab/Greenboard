@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="red">#FF0000</color>
+    <color name="loginFontColor">#333</color>
+    <color name="loginInputBackColor">#eef4eb</color>
+    <color name="loginInputHintColor">#ccc</color>
+    <color name="background">#fff</color>
+    <color name="text">#000</color>
+    <color name="trailLineGreen">#76db8d</color>
+    <color name="textGreen">#1f2d24</color>
+
+    <color name="colorPrimaryTab">#125688</color>
+    <color name="colorPrimaryDarkTab">#125688</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="colorAccentTab">#c8e8ff</color>
+</resources>

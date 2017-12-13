@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_find_trail_map_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="01dp"
+    android:paddingLeft="1dp"
+    android:paddingRight="1dp"
+    android:paddingTop="1dp"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    tools:context="run.greenboard.greenboard.FindTrailMapView">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/my_image_view"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        fresco:placeholderImage="@drawable/default_profile_pic"
+        android:layout_above="@+id/usernameTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="26dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/usernameTextView"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">GreenBoard</string>
+    <string name="username_input_label">Username</string>
+    <string name="pass_input_label">Password</string>
+    <string name="login_btn">Log In</string>
+    <string name="make_account_btn">Create Account</string>
+    <string name="facebook_app_id">1782235245385722</string>
+    <string name="regBtnLabel">Need an account?</string>
+    <string name="fb_login_protocol_scheme">fb1782235245385722</string>
+    <string name="regEmailInputLabel">Email</string>
+    <string name="regUserInputLabel">Username</string>
+    <string name="regPassInputLabel">Password</string>
+    <string name="regPassCInputLabel">Confirm Password</string>
+    <string name="regBtnSubmitText">Register</string>
+    <string name="usrtxt">Username</string>
+    <string name="passtxt">Password</string>
+    <string name="confpasstxt">Confirm Password</string>
+    <string name="emailtxt">Confirm Password</string>
+    <string name="start_time">00:00:00:00</string>
+    <string name="button">Make Trail</string>
+    <string name="add_tags">Add Tags : </string>
+    <string name="trailname">Name Trail : </string>
+    <string name="tags">tags</string>
+    <string name="trail_name">Give your Trail a name</string>
+    <string name="save_and_upload_trail">Save and Upload Trail</string>
+    <string name="take_trail">Take Trail</string>
+    <string name="go_back">Go Back</string>
+</resources>

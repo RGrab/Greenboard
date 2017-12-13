@@ -1,0 +1,66 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="MyTheme" parent="@android:style/Theme.NoTitleBar">
+        <item name="android:windowNoTitle">true</item>
+        <!--<item name="android:windowBackground">@drawable/xyz</item>-->
+    </style>
+
+    <style name="MyMaterialTheme" parent="MyMaterialTheme.Base">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="MyMaterialTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">@color/colorPrimaryTab</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkTab</item>
+        <item name="colorAccent">@color/colorAccentTab</item>
+    </style>
+
+    <!--V FOR BELOW V - storing for later
+    <item name="android:background">@color/loginInputBackColor</item>-->
+    <style name="login_input_theme" parent="@style/Base.Widget.AppCompat.EditText">
+        <item name="android:layout_width">@dimen/login_input_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/login_input_marginBottom</item>
+        <item name="android:layout_marginLeft">@dimen/login_input_margin</item>
+        <item name="android:layout_marginRight">@dimen/login_input_margin</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:radius">50dp</item>
+
+        <item name="android:padding">5dp</item>
+        <item name="android:textColorHint">@color/loginInputHintColor</item>
+        <item name="android:background">@drawable/edittext_bottom_border</item>
+    </style>
+
+    <style name="login_label_theme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/loginFontColor</item>
+    </style>
+
+    <style name="login_button_theme" parent="Base.Widget.AppCompat.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:clickable">true</item>
+        <item name="android:textCursorDrawable">@null</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+
+</resources>

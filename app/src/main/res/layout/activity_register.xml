@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_register"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    tools:context="run.greenboard.greenboard.RegisterActivity">
+
+    <ImageView
+        android:layout_width="@dimen/login_logo_width"
+        android:layout_height="@dimen/login_logo_height"
+        android:background="#000"
+        android:id="@+id/login_logo"
+        android:layout_gravity="center"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        style="@style/login_label_theme"
+        android:text="@string/regEmailInputLabel"
+        android:id="@+id/regEmailInputLabel" />
+
+    <EditText
+        style="@style/login_input_theme"
+        android:id="@+id/regEmailInput"
+        android:layout_below="@+id/regEmailInputLabel"
+        android:nextFocusUp="@+id/email_input"
+        android:nextFocusLeft="@+id/email_input"
+        android:inputType="textEmailAddress" />
+
+    <TextView
+        style="@style/login_label_theme"
+        android:text="@string/regUserInputLabel"
+        android:layout_below="@+id/regEmailInput"
+        android:id="@+id/regUserInputLabel" />
+
+    <EditText
+        style="@style/login_input_theme"
+        android:id="@+id/regUserInput"
+        android:layout_below="@+id/regUserInput"
+        android:nextFocusUp="@+id/email_input"
+        android:nextFocusLeft="@+id/email_input"
+        android:inputType="textNoSuggestions"/>
+
+    <TextView
+        style="@style/login_label_theme"
+        android:text="@string/regPassInputLabel"
+        android:id="@+id/regPassInputLabel"
+        android:layout_below="@+id/regUserInput"/>
+
+    <EditText
+        style="@style/login_input_theme"
+        android:id="@+id/regPassInput"
+        android:layout_below="@+id/regPassInputLabel"
+        android:nextFocusUp="@+id/email_input"
+        android:nextFocusLeft="@+id/email_input"
+        android:inputType="textPassword" />
+
+    <TextView
+        style="@style/login_label_theme"
+        android:text="@string/regPassCInputLabel"
+        android:id="@+id/regPassCInputLabel"
+        android:layout_below="@+id/regPassInput"/>
+
+    <EditText
+        style="@style/login_input_theme"
+        android:id="@+id/regPassCInput"
+        android:layout_below="@+id/regPassCInputLabel"
+        android:nextFocusUp="@+id/email_input"
+        android:nextFocusLeft="@+id/email_input"
+        android:inputType="textPassword" />
+
+    <Button
+        style="@style/login_button_theme"
+        android:id="@+id/regBtnSubmit"
+        android:layout_below="@+id/pass_input_label"
+        android:text="@string/regBtnSubmitText"
+        android:background="#59983b"/>
+</LinearLayout>
